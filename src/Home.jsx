@@ -5,6 +5,8 @@ import ComponentLife from "./ComponentLife";
 import SetStateDemo from "./setStateDemo";
 import ifDemo from "./ifDemo";
 import IfDemo from "./ifDemo";
+import FormDemo from "./FormDemo";
+import RefsAndDOM from "./RefsAndDOM";
 
 export default class Home extends React.Component {
   constructor() {
@@ -34,7 +36,9 @@ export default class Home extends React.Component {
         /> */}
         {/* <button onClick={this.clickChange}>修改title</button> */}
         {/* <SetStateDemo /> */}
-        <IfDemo />
+        {/* <IfDemo /> */}
+        <FormDemo />
+        <RefsAndDOM />
       </div>
     );
   }
